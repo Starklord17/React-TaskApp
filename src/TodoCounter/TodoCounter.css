@@ -1,9 +1,9 @@
 #title {
   font-size: 48px;
   font-weight: bold;
-  /*color: #00e15e;
-  */color: #05F919;
-  box-shadow: 0px 5px 25px rgba(13, 249, 5 );
+  /* color: #00e15e; */
+  color: #00FF00;
+  box-shadow: 0px 0px 25px rgba(13, 249, 5 );
   border-radius: 5px;
   text-align: center;
   width: fit-content;
