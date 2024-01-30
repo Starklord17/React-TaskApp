@@ -1,33 +1,6 @@
-/* import { CompleteIcon } from './CompleteIcon';
-import { DeleteIcon } from './DeleteIcon';
-
-import PropTypes from 'prop-types';
-
-import './TodoItem.css';
-
-const TodoItem = (props) => {
-  const { text, completed, onToggle, onDelete } = props;
-
-  return (
-    <li className="TodoItem">
-      <div className={`check-container ${completed && "completed"}`}>
-        <CompleteIcon
-          className={`check ${completed && "completed"}`}
-          onClick={onToggle}
-        />
-      </div>
-      <p className={`todo ${completed && "completed"}`}>{text}</p>
-      <div className="closer-container">
-        <DeleteIcon className="closer" onClick={onDelete} />
-      </div>
-    </li>
-  );
-};
-
-export { TodoItem }; */
-
 import { DeleteIcon } from '../TodoIcon/DeleteIcon'
 import { CheckIcon } from '../TodoIcon/CheckIcon'
+import PropTypes from 'prop-types';
 import './TodoItem.css'
 
 function TodoItem (props) {
@@ -51,4 +24,12 @@ function TodoItem (props) {
       </li>
     );
   }
+
+  TodoItem.propTypes = {
+    text: PropTypes.string.isRequired,
+    completed: PropTypes.bool.isRequired,
+    onComplete: PropTypes.func.isRequired,
+    onDelete: PropTypes.func.isRequired,
+  };
+
   export { TodoItem };
