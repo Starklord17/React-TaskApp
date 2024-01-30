@@ -24,9 +24,9 @@
   color: #05F919;
 }
 
-/* .title h1 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #008050;
-  text-align: center;
-} */
+#title:hover {
+  box-shadow: 0 0 5px rgb(14, 241, 64),
+  0 0 20px rgb(14, 241, 64),
+  0 0 25px rgb(14, 241, 64),
+  0 0 50px rgb(14, 241, 64);
+}
