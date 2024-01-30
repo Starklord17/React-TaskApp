@@ -12,4 +12,9 @@ const DeleteIcon = (props) => {
   )
 }
 
+DeleteIcon.propTypes = {
+  className: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+};
+
 export {DeleteIcon}

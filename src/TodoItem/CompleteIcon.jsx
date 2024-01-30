@@ -1,5 +1,5 @@
 // import { TodoIcon } from '../TodoIcon';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import {RxCheck} from 'react-icons/rx'
 
 
@@ -12,5 +12,10 @@ const CompleteIcon = (props) => {
     />
   )
 }
+
+CompleteIcon.propTypes = {
+  className: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+};
 
 export {CompleteIcon}
