@@ -1,19 +1,19 @@
 .TodoSearch {
   background: #000000;
-  border-radius: 2px;
+  border-radius: 1rem;
   border: 2px solid #202329;
   height: 64px;
-  width: calc(95% - 5px);
-  /* width: 95%; */
+  /* width: calc(95% - 5px); */
+  width: 95%;
   font-size: 24px;
   text-align: center;
   font-family: montserrat;
   font-weight: 400;
   color: #f0eeee;
   box-shadow: 0 5px 50px rgba(32, 35, 41, 0.25);
-  margin: 0 auto; /* Centra el elemento */
-  max-width: 1200px; /* Establece un ancho máximo */
-  padding: 0 24px; /* Agrega espacio en los bordes */
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 24px;
 }
 
 .TodoSearch::placeholder {
