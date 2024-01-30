@@ -1,4 +1,3 @@
-// import { TodoIcon } from '../TodoIcon';
 import PropTypes from 'prop-types';
 import {RxCheck} from 'react-icons/rx'
 

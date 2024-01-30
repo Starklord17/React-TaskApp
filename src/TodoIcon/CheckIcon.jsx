@@ -1,4 +1,5 @@
 import { TodoIcon } from '.'
+import PropTypes from "prop-types";
 
 function CheckIcon({ completed, onClick}) {
     
@@ -11,5 +12,10 @@ function CheckIcon({ completed, onClick}) {
         />
     );
 }
+
+CheckIcon.propTypes = {
+    completed: PropTypes.bool.isRequired,
+    onClick: PropTypes.func.isRequired,
+  };
 
 export { CheckIcon };
