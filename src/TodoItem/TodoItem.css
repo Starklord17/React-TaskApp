@@ -1,0 +1,37 @@
+.TodoItem {
+  background-color: #000000;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  box-shadow: 0 5px 50px rgba(32, 35, 41, 0.15);
+}
+.TodoItem-p {
+  margin: 24px 0 24px 24px;
+  width: calc(100% - 120px);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.TodoItem-p--complete {
+  text-decoration: line-through;
+}
+
+/* --- */
+
+.span-icon-close {
+  color: rgb(255, 98, 98);
+  position: absolute;
+  font-size: 1.5rem;
+  right: -30px;
+  top: -30px;
+}
+
+.span-icon-done {
+  color: rgb(21, 255, 0);
+}
+
+.span-icon-uncompleted {
+  color: rgb(164, 165, 164);
+}

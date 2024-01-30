@@ -1,0 +1,32 @@
+#title {
+  font-size: 48px;
+  font-weight: bold;
+  /*color: #00e15e;
+  */color: #05F919;
+  box-shadow: 0px 5px 25px rgba(13, 249, 5 );
+  border-radius: 5px;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.TodoCounter {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  padding: 48px;
+  font-weight: 100;
+  /* color: #00ca52; */
+  color: #0DFD95;
+}
+.TodoCounter span {
+  font-weight: 700;
+  color: #05F919;
+}
+
+/* .title h1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #008050;
+  text-align: center;
+} */
