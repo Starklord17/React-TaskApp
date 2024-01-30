@@ -31,17 +31,18 @@
   position: absolute;
   left: 12px;
 }
-.LoadingTodo-deleteIcon {
+/* .LoadingTodo-deleteIcon {
   position: absolute;
   top: -24px;
   right: 0;
-}
+} */
 
 
 .LoadingTodo-container,
 .LoadingTodo-completeIcon,
 .LoadingTodo-deleteIcon {
-  background: linear-gradient(90deg, rgba(250,250,250,1), rgb(200, 199, 199));
+  /* background: linear-gradient(90deg, rgba(250,250,250,1), rgb(200, 199, 199)); */
+  background: linear-gradient(90deg, rgba(208, 241, 213, 0.700), rgba(142, 233, 150, 0.700));
   background-size: 400% 400%;
   animation: loadingAnimation 3s ease-in-out infinite;
 }
