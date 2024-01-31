@@ -33,6 +33,8 @@ To install the project, follow these steps:
 3. Run `npm install` or `pnpm i` to install the project dependencies.
 4. Run `npm run dev` or `pnpm run dev` to start the development server.
 
+---
+
 ### React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
