@@ -6,7 +6,8 @@ This is a simple task management app that allows users to filter, add, delete, m
 
 ## TaskApp Screenshot
 
-![App Screenshot](/public/TaskAppScreenshot.png/468x300)
+<!-- <img src="/public/TaskAppScreenshot.png" alt="App Screenshot" width="400" height="300"> -->
+<img src="/public/TaskAppScreenshot.png" alt="App Screenshot" style="width: 50%; height: auto;">
 
 ## Technologies
 
