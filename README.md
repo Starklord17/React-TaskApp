@@ -16,11 +16,12 @@ This is a simple task management app that allows users to filter, add, delete, m
   - Dependencies: prop-types, react-icons
   - Development Tools: [Vite](https://vitejs.dev/), [ESLint](https://eslint.org/)
   - React Types: @types/react, @types/react-dom
+  - Styling: [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) (Custom loader created with CSS)
   - Deployment: [Vercel](https://vercel.com/) => https://react-vite-taskapp.vercel.app/
 
 ## Requirements
 
-- Node.js 16+
+- [Node.js](https://nodejs.org/)
 - [NPM](https://www.npmjs.com/) or [PNPM](https://pnpm.io/)
 
 ## Getting Started
