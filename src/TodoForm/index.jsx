@@ -1,6 +1,7 @@
 import React from 'react';
 import './TodoForm.css';
 import { TodoContext } from '../TodoContext';
+import soundFileAdded from './added.mp3'
 
 function TodoForm() {
   const {
@@ -8,12 +9,15 @@ function TodoForm() {
     setOpenModal,
   } = React.useContext(TodoContext);
 
+  const audioAdded = new Audio(soundFileAdded);
+
   const [newTodoValue, setNewTodoValue] = React.useState('');
 
   const onSubmit = (event) => {
     event.preventDefault();
     addTodo(newTodoValue);
     setOpenModal(false);
+    audioAdded.play();
   }
 
   const onCancel = () => {
