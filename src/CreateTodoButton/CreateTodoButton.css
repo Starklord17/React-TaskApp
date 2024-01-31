@@ -23,8 +23,9 @@
 
 .CreateTodoButton:hover {
   transform: rotate(224deg);
-  box-shadow: 0 0 5px rgb(14, 241, 64),
-  0 0 25px rgb(14, 241, 64),
-  0 0 50px rgb(14, 241, 64),
-  0 0 100px rgb(14, 241, 64);
+  box-shadow: 0 0 5px rgb(14, 241, 64),  0 0 25px rgb(14, 241, 64),  0 0 50px rgb(14, 241, 64),  0 0 100px rgb(14, 241, 64);
+  -webkit-transform: rotate(224deg);
+  -moz-transform: rotate(224deg);
+  -ms-transform: rotate(224deg);
+  -o-transform: rotate(224deg);
 }
