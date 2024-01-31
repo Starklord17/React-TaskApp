@@ -6,7 +6,7 @@ This is a simple task management app that allows users to filter, add, delete, m
 
 ## TaskApp Screenshot
 
-![App Screenshot](https://github.com/Starklord17/React-TaskApp/blob/main/public/TaskAppScreenshot.png/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/Starklord17/React-TaskApp/blob/main/public/TaskAppScreenshot.png/468x300)
 
 ## Technologies
 
