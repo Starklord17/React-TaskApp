@@ -9,7 +9,7 @@ function TodoCounter() {
     <div className="TodoCounter">
       <h1 id="title">TaskApp</h1>
 
-      {completedTodos === totalTodos && <h1>All tasks completed</h1>}
+      {completedTodos === totalTodos && <h1 className="textCounter">All tasks completed!</h1>}
       {completedTodos !== totalTodos && (
         <h1>
           You have completed <span>{completedTodos}</span> of{" "}

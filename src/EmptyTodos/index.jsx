@@ -1,12 +1,12 @@
 // import { TodoContext } from "../TodoContext";
+import "./EmptyTodos.css";
 
 function EmptyTodos() {
   // const { loading, totalTodos, searchTodos } = React.useContext(TodoContext);
 
   return (
     <div>
-      <br />
-      <p>Create a task.</p>
+      <p className="empty">Create a new task...</p>
     </div>
 
     // <div>
@@ -14,10 +14,14 @@ function EmptyTodos() {
     //   {((!loading && searchTodos === 0)) && <p>No hay coincidencias</p>}
     // </div>
 
-  );
+  // );
+
+  // return ( loading ? 
+  //   <p>Create your first task...</p>
+  //   :
+  //   <p>Create a new task.</p>
+);
+
 }
 
 export { EmptyTodos };
-
-
-// Posible implementación. Averiguar si habría que implementarla dentro de AppUI.
