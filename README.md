@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple task management app that allows users to filter, add, delete, mark, or unmark different tasks. Task management apps are digital tools designed to help individuals and teams organize and keep track of their tasks and enhance productivity. This app provides basic functionality to manage your tasks and improve your personal or professional life.
+This is a simple task management app that allows users to filter, add, delete, mark, or unmark different tasks. The app utilizes Local Storage to save tasks locally, ensuring that the user's task data is persisted even after the browser is closed or refreshed.
 
 ## TaskApp Screenshot
 
